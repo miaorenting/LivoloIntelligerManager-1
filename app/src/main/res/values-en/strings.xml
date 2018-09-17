@@ -1,0 +1,449 @@
+<resources>
+    <string name="app_name">LIVOLO</string>
+
+    <string name="login">Login</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sure">OK</string>
+    <string name="set">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_selected">Batch Delete</string>
+    <string name="rename">Rename</string>
+    <string name="send">Send</string>
+    <string name="commit">Submit</string>
+    <string name="error">Error</string>
+    <string name="get">Obtain</string>
+    <string name="update">Modify</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="register">Register</string>
+    <string name="next">Next</string>
+    <string name="complete">Complete</string>
+    <string name="unbind">Unbind</string>
+    <string name="about">About</string>
+
+    <string name="add_switch_notice">Hold Any Gang Of Switch For 5s Until You Hear A Beep</string>
+    <string name="addgateway_title">Add Gateway</string>
+    <string name="addgateway_progress_title">Match Gateway</string>
+    <string name="addgateway_success_title">Succeed</string>
+    <string name="addswitch_title">Add device</string>
+    <string name="addswitch_success_title">Succeed</string>
+    <string name="devicechose_title">Select Device</string>
+    <string name="gatewaymanager_title">Gateway Management</string>
+    <string name="switch_manager_title">Device Management</string>
+    <string name="wifichose_title">Select WIFI</string>
+    <string name="addroom_title">Add Room</string>
+    <string name="room_manager">Room Management</string>
+    <string name="sence_manager">Scene Management</string>
+    <string name="add_sence">Add Scene</string>
+    <string name="password_change">Modify Password</string>
+    <string name="reset_gateway">Reset Device</string>
+    <string name="login_out">Log Out</string>
+    <string name="start_set_gateway">Start Matching</string>
+    <string name="start_add">Start Adding</string>
+    <string name="register_success">Succeed</string>
+    <string name="userinfo">User Info</string>
+
+    <string name="add_success">Succeed!</string>
+    <string name="add_false">Failed!</string>
+    <string name="my_room">My Room</string>
+    <string name="selected_btn">Select Device List</string>
+    <string name="be_need_save">Save?</string>
+    <string name="room_is_name_cannot_be_null">Enter Room Name!</string>
+    <string name="be_need_delete">Delete?</string>
+    <string name="add_home_first">Add Family First</string>
+    <string name="input_switch_name">Enter Device Name</string>
+    <string name="re_login">Relogin</string>
+    <string name="input_gateway_name">Enter Gateway Name</string>
+    <string name="empty_layout_text">Your Room Is Empty,Please Add First!</string>
+    <string name="rq_empty">No QR Code!</string>
+    <string name="need_unbind_home">Unbind Family?</string>
+    <string name="unbind_failed">Unbind Failed</string>
+    <string name="scene_open">Open</string>
+    <string name="device_number">Device Amount:</string>
+    <string name="gateway_name">Gateway Name</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="feed_bug">System BUG</string>
+    <string name="feed_ui">Interface Problem</string>
+    <string name="feed_action">Operation Problem</string>
+    <string name="feed_other">Other Problem</string>
+
+    <string name="set_appversion">Update Checking</string>
+    <string name="update_appversion">Version Update</string>
+    <string name="set_location">Region</string>
+    <string name="set_language">Language</string>
+    <string name="set_update_pwd">Modify Password</string>
+    <string name="set_update_phone">Modify Mobile Number</string>
+    <string name="register_right_now">Register</string>
+    <string name="forget_password">Forgot Password</string>
+    <!--<string name="forget_password">Forgot</string>-->
+    <string name="set_home">Family Management</string>
+    <string name="delete_user">Delete User</string>
+    <string name="delete_user_warn">The User Will Not Exist After Deleting!</string>
+    <string name="delete_user_success">Succeed</string>
+    <string name="delete_user_false">Failed</string>
+
+    <string name="login_warn">Enter The User Name And Password Correctly!</string>
+    <string name="can_not_be_empty">Enter User Name!</string>
+    <string name="devicename">Device Name</string>
+    <string name="devicename_cannot_be_empty">Enter Device Name!</string>
+    <string name="pwd_cannot_be_empty">Enter Password!</string>
+    <string name="time_out">Timeout,Please Relogin!</string>
+    <string name="be_need_commit">Submit?</string>
+    <string name="phone_number">Phone:</string>
+    <string name="code_number">Code:</string>
+    <string name="code">Code</string>
+    <string name="new_password">New :</string>
+    <string name="new_password_again">Again :</string>
+    <string name="old_password">Original :</string>
+    <string name="input_password_again"> Enter Password Again(Reguired)!</string>
+    <string name="be_right_input_password">Enter Password Correctly!</string>
+    <string name="passwrod_not_same">Two New Passwords Are Inconsistent, Please Re-enter!</string>
+    <string name="committing">Submitting...</string>
+    <string name="add_gateway_success">Succeed</string>
+    <string name="add_gateway_false">Failed!</string>
+    <string name="blue_light">Red And Blue Flashing</string>
+    <string name="change_wifi">Change WIFI Accordingly</string>
+    <string name="update_password_success">Succeed!</string>
+    <string name="update_password_false">Failed!</string>
+    <string name="input_roomname">Enter Room Name</string>
+    <string name="input_homename">Enter Family Name</string>
+    <string name="rename_isempty">Failed, Please Enter New Name!</string>
+    <string name="sences_get_false">Failed!</string>
+    <string name="add_scene_success">Succeed!</string>
+    <string name="add_scene_false">Failed!</string>
+    <string name="update_scene_success">Succeed!</string>
+    <string name="update_scene_false">Failed!</string>
+    <string name="get_scene_error">Failed!</string>
+    <string name="chose_scene_icon">Select Icon</string>
+    <string name="reset_gateway_attention">Hold The Button On The Top Of The Gateway For 5s Until The Light Turns Blue,The Reset Has Been Successfully Made.</string>
+    <string name="done_all_operation">Above Operation Has Been Done</string>
+
+    <string name="input_username_login">Enter User Name</string>
+    <string name="input_password_login">Enter Password</string>
+    <string name="input_username">Enter User Name(Reguired)</string>
+    <string name="input_password">Enter Password(Reguired)</string>
+    <string name="input_phone">Enter Mobile Number(Reguired)</string>
+    <string name="input_code">Enter Verification Code(Reguired)</string>
+    <string name="input_emial">Enter Email(Reguired)</string>
+    <string name="input_nike">Enter Name</string>
+    <string name="code_btn">Get Code</string>
+    <string name="code_cannot_be_empty">Enter Verification Code!</string>
+    <string name="region_cannot_be_empty">Enter Area Code!</string>
+    <string name="phone_cannot_be_empty">Enter Mobile Number!</string>
+    <string name="email_cannot_be_empty">Enter Email Address!</string>
+    <string name="email_format_error">Email Format Uncorrect!</string>
+    <string name="get_code_error">Failed!</string>
+    <string name="token_time_out">Timeout,Please Relogin!</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connecting_text">Connecting...</string>
+    <string name="delete_false">Failed!</string>
+    <string name="send_success">Succeed!</string>
+    <string name="send_failed">Failed</string>
+    <string name="click_gateway">Select The Gateway Shown In The Above Table. If No Gateway Is Displayed, Check Whether The Gateway Is In The Distribution Mode!</string>
+
+    <string name="room_icon">Room Icon</string>
+    <string name="room_name">Room Name</string>
+    <string name="roomname_0">Screening Room</string>
+    <string name="roomname_1">Dining Room</string>
+    <string name="roomname_2">Kitchen</string>
+    <string name="roomname_3">Secondary Room</string>
+    <string name="roomname_4">Aisle</string>
+    <string name="roomname_5">Makeup Room</string>
+    <string name="roomname_6">Drawing Room</string>
+    <string name="roomname_7">Shower Room</string>
+    <string name="roomname_8">Stairs</string>
+    <string name="roomname_9">Terrace</string>
+    <string name="roomname_10">Study</string>
+    <string name="roomname_11">Bathroom</string>
+    <string name="roomname_12">Balcony</string>
+    <string name="roomname_13">Cloak Room</string>
+    <string name="roomname_14">Master Bedroom</string>
+
+    <!--R.mipmap.sence_blue_movie,R.mipmap.sence_blue_outhome,R.mipmap.sence_blue_party,R.mipmap.sence_blue_sleep-->
+    <string name="scene_0">Cinema Mode</string>
+    <string name="scene_1">Departure Mode</string>
+    <string name="scene_2">Party Mode</string>
+    <string name="scene_3">Sleep Mode</string>
+
+    <string name="belong">Belong To</string>
+    <string name="belong_room">Belong To This Room</string>
+    <string name="no_group">Ungrouped</string>
+    <string name="style_open">Open Mode</string>
+    <string name="cannot_get_app_version">Unable To Get Version Number!</string>
+    <string name="cannot_connect_service">Unable To Access Server!</string>
+    <string name="set_gateway_failed">Failed!</string>
+    <string name="set_gateway_success">Succeed!</string>
+    <string name="create_success">Succeed!</string>
+    <string name="create_false">Failed!</string>
+    <string name="add_time_out">Timeout!</string>
+    <string name="add_again">Re-add</string>
+    <string name="switch_name_cannot_be_empty">Enter Switch Name!</string>
+    <string name="update_success">Succeed</string>
+    <string name="update_failed">Failed</string>
+    <string name="logining">Logging In...</string>
+    <string name="click_double_back">Double-click The Return Button To Exit The Program!</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="photo_album">Photo Album</string>
+    <string name="sd_unable">SD Card Is Not Available!</string>
+    <string name="app_is_new">APP Is The Latest Version!</string>
+    <string name="china">China</string>
+    <string name="china_taiwan">Taiwan</string>
+    <string name="other">Occident</string>
+    <string name="btn_status">Button Status</string>
+    <string name="scene_icon">Scene Icon</string>
+    <string name="scene_name">Scene Name</string>
+    <string name="input_scene_name">Enter Scene Name</string>
+    <string name="sure_blue_light">Turn On The Power And Check If The Gateway Indicator Is Flashing</string>
+    <string name="light_other_status">Indicator Light In Other Status</string>
+    <string name="keep_device_close">Please Keep Your Phone And Device Closing To The Router</string>
+    <string name="set_device_room">The Location Of The Device</string>
+    <string name="input_valuable_comments">Enter Your Opinion</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nikename">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="home_chose">Select Family</string>
+    <string name="connect_again">Reconnecting...</string>
+    <string name="login_again">Timeout, Please Relogin!</string>
+    <string name="login_out_by_other">Your Account Is Logged In Elsewhere!</string>
+    <string name="update_app_now">Update Now</string>
+    <string name="update_app_later">Update Later</string>
+    <string name="delete_gateway_warn">Deleting the gateway will delete the related device's relationship, and then you have to re-match it.</string>
+
+    <string name="show_bind">Share Binding</string>
+    <string name="look_update">View Edits</string>
+    <string name="scan_rq">Scan QR Code</string>
+    <string name="scan_rq_failed">Failed!</string>
+    <string name="request_bind_home">Binding This Family?</string>
+    <string name="get_homelist_failed">Failed!</string>
+    <string name="addhome_by_create">Create A New Family</string>
+    <string name="addhome_by_rq">Scanning Binding</string>
+    <string name="home_name">Name:</string>
+    <string name="home_address">Address:</string>
+    <string name="input_homeaddress">Please Enter Family Name/Note</string>
+    <string name="updateing">Updating</string>
+    <string name="wait_update">Processing...</string>
+    <string name="app_loading">Downloading</string>
+    <string name="loading_failed">Failed!</string>
+    <string name="resident_area">Region</string>
+    <string name="bind_room">Bound List</string>
+    <string name="beyond_str_length">Input is too long!</string>
+    <string name="add_gateway_first">Add gateway first!</string>
+    <string name="failed_connect_service">Failed to connect to server！ </string>
+
+    <string name="livolo_story">   We believe the main core value that each person is designed to fulfill is LOVE.Love is patient, love is kind. It does not envy, it does not boast, it is not proud.
+        LIVOLO therefore is a way to express our life attitude to LIVE ON LOVE. It is our desire to share this value with more and more people in our products, lifestyle, and the way we do business.
+        Just as a wall switch is frequently used everyday to brighten up a room, so a family is a source of love to brighten up our lives and home. In addition, LIVOLO has extended its initial line of wall switches to wall sockets and other related products. Rather than just a regular wall switch, a LIVOLO switch with a crystal touch, communicates love and uniqueness to the entire family.
+        We believe the world needs LOVE. This love is communicated by LIVOLO by adhering to the principles of humility, perseverance, and excellence.</string>
+    <string-array name="areas">
+        <item>China</item>
+        <item>Germany</item>
+        <item>America</item>
+        <item>France</item>
+        <item>England</item>
+        <item>Italy</item>
+        <item>Canada</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>1</item>
+        <item>7</item>
+        <item>20</item>
+        <item>27</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>36</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>81</item>
+        <item>82</item>
+        <item>84</item>
+        <item>86</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>98</item>
+        <item>212</item>
+        <item>213</item>
+        <item>216</item>
+        <item>218</item>
+        <item>220</item>
+        <item>221</item>
+        <item>223</item>
+        <item>224</item>
+        <item>225</item>
+        <item>226</item>
+        <item>227</item>
+        <item>228</item>
+        <item>229</item>
+        <item>230</item>
+        <item>231</item>
+        <item>232</item>
+        <item>233</item>
+        <item>233</item>
+        <item>234</item>
+        <item>235</item>
+        <item>236</item>
+        <item>237</item>
+        <item>239</item>
+        <item>241</item>
+        <item>242</item>
+        <item>243</item>
+        <item>244</item>
+        <item>247</item>
+        <item>248</item>
+        <item>249</item>
+        <item>251</item>
+        <item>252</item>
+        <item>253</item>
+        <item>254</item>
+        <item>255</item>
+        <item>256</item>
+        <item>257</item>
+        <item>258</item>
+        <item>260</item>
+        <item>261</item>
+        <item>262</item>
+        <item>263</item>
+        <item>264</item>
+        <item>265</item>
+        <item>266</item>
+        <item>267</item>
+        <item>268</item>
+        <item>327</item>
+        <item>331</item>
+        <item>350</item>
+        <item>351</item>
+        <item>352</item>
+        <item>353</item>
+        <item>354</item>
+        <item>355</item>
+        <item>356</item>
+        <item>357</item>
+        <item>358</item>
+        <item>359</item>
+        <item>370</item>
+        <item>371</item>
+        <item>372</item>
+        <item>373</item>
+        <item>374</item>
+        <item>375</item>
+        <item>376</item>
+        <item>377</item>
+        <item>378</item>
+        <item>380</item>
+        <item>381</item>
+        <item>386</item>
+        <item>420</item>
+        <item>421</item>
+        <item>423</item>
+        <item>501</item>
+        <item>502</item>
+        <item>503</item>
+        <item>504</item>
+        <item>505</item>
+        <item>506</item>
+        <item>507</item>
+        <item>509</item>
+        <item>591</item>
+        <item>592</item>
+        <item>593</item>
+        <item>594</item>
+        <item>595</item>
+        <item>596</item>
+        <item>597</item>
+        <item>598</item>
+        <item>599</item>
+        <item>673</item>
+        <item>674</item>
+        <item>675</item>
+        <item>676</item>
+        <item>677</item>
+        <item>679</item>
+        <item>682</item>
+        <item>684</item>
+        <item>685</item>
+        <item>689</item>
+        <item>850</item>
+        <item>852</item>
+        <item>853</item>
+        <item>855</item>
+        <item>856</item>
+        <item>880</item>
+        <item>886</item>
+        <item>960</item>
+        <item>961</item>
+        <item>962</item>
+        <item>963</item>
+        <item>964</item>
+        <item>965</item>
+        <item>966</item>
+        <item>967</item>
+        <item>968</item>
+        <item>971</item>
+        <item>972</item>
+        <item>973</item>
+        <item>974</item>
+        <item>976</item>
+        <item>977</item>
+        <item>992</item>
+        <item>993</item>
+        <item>994</item>
+        <item>995</item>
+        <item>1242</item>
+        <item>1246</item>
+        <item>1264</item>
+        <item>1268</item>
+        <item>1345</item>
+        <item>1441</item>
+        <item>1664</item>
+        <item>1670</item>
+        <item>1671</item>
+        <item>1758</item>
+        <item>1758</item>
+        <item>1784</item>
+        <item>1784</item>
+        <item>1787</item>
+        <item>1809</item>
+        <item>1809</item>
+        <item>1876</item>
+        <item>1890</item>
+    </string-array>
+
+</resources>

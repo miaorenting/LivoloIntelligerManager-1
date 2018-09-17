@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue">
+    <include
+        layout="@layout/action_bar_top"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+        <TextView
+            android:id="@+id/feed_1"
+            android:text="@string/feed_bug"
+            style="@style/FeedbackTextStyle"/>
+        <TextView
+            android:id="@+id/feed_2"
+            android:text="@string/feed_ui"
+            style="@style/FeedbackTextStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+        <TextView
+            android:id="@+id/feed_3"
+            android:text="@string/feed_action"
+            style="@style/FeedbackTextStyle"/>
+        <TextView
+            android:id="@+id/feed_4"
+            android:text="@string/feed_other"
+            style="@style/FeedbackTextStyle"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/feed_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/text_bg"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="left|top"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:padding="5dp"
+        android:hint="请在此输入您宝贵的意见！"/>
+</LinearLayout>

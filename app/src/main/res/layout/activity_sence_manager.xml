@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue">
+    <include layout="@layout/action_bar_top"
+        android:id="@+id/top"/>
+    <TextView
+        android:id="@+id/cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/actionsheet_single_pressed"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="@string/delete_all"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"/>
+    <ListView
+        android:id="@+id/room_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:divider="@color/lightblue"
+        android:dividerHeight="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/top"
+        android:layout_above="@id/cancel_btn">
+
+    </ListView>
+
+
+</RelativeLayout>

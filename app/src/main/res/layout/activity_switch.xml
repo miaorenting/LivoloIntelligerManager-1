@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightblue">
+    <include
+        layout="@layout/action_bar_top"/>
+    <ExpandableListView
+        android:id="@+id/switch_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:groupIndicator="@null"
+        android:divider="@null"
+        android:background="@android:color/white">
+
+    </ExpandableListView>
+
+</LinearLayout>

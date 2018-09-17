@@ -1,0 +1,448 @@
+<resources>
+    <string name="app_name">LIVOLO</string>
+
+    <string name="login">登       录</string>
+    <string name="add">添 加</string>
+    <string name="save">保 存</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="sure">确 定</string>
+    <string name="set">设 置</string>
+    <string name="delete">删 除</string>
+    <string name="cancel">取 消</string>
+    <string name="delete_all">删 除 全 部</string>
+    <string name="delete_selected">批 量 删 除</string>
+    <string name="rename">重 命 名</string>
+    <string name="send">发 送</string>
+    <string name="commit">提 交</string>
+    <string name="error">错 误</string>
+    <string name="get">获 取</string>
+    <string name="update">修 改</string>
+    <string name="open">开 启</string>
+    <string name="close">关 闭</string>
+    <string name="register">注 册</string>
+    <string name="next">下 一 步</string>
+    <string name="complete">完 成</string>
+    <string name="unbind">解 绑</string>
+    <string name="about">关 于</string>
+
+    <string name="add_switch_notice">持续触摸开关任意按钮5秒，听到"滴"声后松手！</string>
+    <string name="addgateway_title">网 关 添 加</string>
+    <string name="addgateway_progress_title">匹 配 网 关</string>
+    <string name="addgateway_success_title">配 网 成 功</string>
+    <string name="addswitch_title">添 加 设 备</string>
+    <string name="addswitch_success_title">匹 配 成 功</string>
+    <string name="devicechose_title">设 备 选 择</string>
+    <string name="gatewaymanager_title">网 关 管 理</string>
+    <string name="switch_manager_title">设 备 管 理</string>
+    <string name="wifichose_title">WIFI 选 择</string>
+    <string name="addroom_title">添 加 房 间</string>
+    <string name="room_manager">房 间 管 理</string>
+    <string name="sence_manager">情 景 管 理</string>
+    <string name="add_sence">添 加 情 景</string>
+    <string name="password_change">密 码 修 改</string>
+    <string name="reset_gateway">设 备 重 置</string>
+    <string name="login_out">退 出 账 号</string>
+    <string name="start_set_gateway">开 始 配 网</string>
+    <string name="start_add">开 始 添 加</string>
+    <string name="register_success">注 册 成 功</string>
+    <string name="userinfo">用 户 信 息</string>
+
+    <string name="add_success">添加成功！</string>
+    <string name="add_false">添加失败！</string>
+    <string name="my_room">我的房间</string>
+    <string name="selected_btn">选中设备列表</string>
+    <string name="be_need_save">是否需要保存？</string>
+    <string name="room_is_name_cannot_be_null">房间名称不可为空！</string>
+    <string name="be_need_delete">是否需要删除？</string>
+    <string name="add_home_first">请先添加家庭！</string>
+    <string name="input_switch_name">请输入设备名称</string>
+    <string name="re_login">请重新登录</string>
+    <string name="input_gateway_name">请输入网关名称</string>
+    <string name="empty_layout_text">骚年，你的房间空空如也！快去添加房间吧！</string>
+    <string name="rq_empty">没有发现二维码！</string>
+    <string name="need_unbind_home">是否解绑该家庭</string>
+    <string name="unbind_failed">解绑失败！</string>
+    <string name="scene_open">模式开启</string>
+    <string name="device_number">设备数量：</string>
+    <string name="gateway_name">网关名称</string>
+
+    <string name="feedback">意 见 反 馈</string>
+    <string name="feed_bug">系统BUG</string>
+    <string name="feed_ui">界面问题</string>
+    <string name="feed_action">操作问题</string>
+    <string name="feed_other">其他问题</string>
+
+    <string name="set_appversion">更新检查</string>
+    <string name="update_appversion">版本更新</string>
+    <string name="set_location">常驻地区</string>
+    <string name="set_language">语言</string>
+    <string name="set_update_pwd">密码修改</string>
+    <string name="set_update_phone">修改关联手机</string>
+    <string name="register_right_now">立即注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="set_home">家 庭 管 理</string>
+    <string name="delete_user">用户注销</string>
+    <string name="delete_user_warn">用户注销以后，此用户将不存在！</string>
+    <string name="delete_user_success">注销成功</string>
+    <string name="delete_user_false">注销失败</string>
+
+    <string name="login_warn">请正确填写用户名和密码！</string>
+    <string name="can_not_be_empty">用户名不可为空！</string>
+    <string name="devicename">设备名称</string>
+    <string name="devicename_cannot_be_empty">设备名称不可为空！</string>
+    <string name="pwd_cannot_be_empty">密码不可为空！</string>
+    <string name="time_out">登入超时，请重新登录！</string>
+    <string name="be_need_commit">是否提交？</string>
+    <string name="phone_number">手机号: </string>
+    <string name="code_number">验证码: </string>
+    <string name="code">验证码</string>
+    <string name="new_password">新密码: </string>
+    <string name="new_password_again">确认密码:</string>
+    <string name="old_password">旧密码: </string>
+    <string name="input_password_again">请再次输入密码</string>
+    <string name="be_right_input_password">请正确填写密码！</string>
+    <string name="passwrod_not_same">两次新密码不一致，请重新填写！</string>
+    <string name="committing">正在提交...</string>
+    <string name="add_gateway_success">网关添加成功</string>
+    <string name="add_gateway_false">网关添加失败！</string>
+    <string name="blue_light">红蓝灯闪烁中</string>
+    <string name="change_wifi">若要更换WIFI请更换手机当前所连接的WIFI</string>
+    <string name="update_password_success">密码修改成功！</string>
+    <string name="update_password_false">密码修改失败！</string>
+    <string name="input_roomname">请输入房间名称</string>
+    <string name="input_homename">请输入家庭名称</string>
+    <string name="rename_isempty">新名字为空，重命名失败！</string>
+    <string name="sences_get_false">情景模式获取失败！</string>
+    <string name="add_scene_success">情景添加成功！</string>
+    <string name="add_scene_false">情景添加失败！</string>
+    <string name="update_scene_success">情景修改成功！</string>
+    <string name="update_scene_false">情景修改失败！</string>
+    <string name="get_scene_error">情景获取失败！</string>
+    <string name="chose_scene_icon">请选择图标</string>
+    <string name="reset_gateway_attention">按住网关顶部的配网按键，保持5秒左右，直至指示灯变为蓝色闪烁，即重置成功。</string>
+    <string name="done_all_operation">已完成上述操作</string>
+
+    <string name="input_username_login">请输入用户名</string>
+    <string name="input_password_login">请输入密码</string>
+    <string name="input_username">请输入用户名(必填)</string>
+    <string name="input_password">请输入密码(必填)</string>
+    <string name="input_phone">请输入手机号(必填)</string>
+    <string name="input_code">请输入验证码(必填)</string>
+    <string name="input_emial">请输入邮箱(必填)</string>
+    <string name="input_nike">请输入昵称</string>
+    <string name="code_btn">验证码</string>
+    <string name="code_cannot_be_empty">验证码不可为空！</string>
+    <string name="region_cannot_be_empty">区号不可为空！</string>
+    <string name="phone_cannot_be_empty">手机号不可为空！</string>
+    <string name="email_cannot_be_empty">邮箱不可为空！</string>
+    <string name="email_format_error">邮箱格式不正确！</string>
+    <string name="get_code_error">获取验证码失败！</string>
+    <string name="token_time_out">登录超时，请重新登录！</string>
+    <string name="connecting">正在连接...</string>
+    <string name="connecting_text">正在连接中</string>
+    <string name="delete_false">删除失败！</string>
+    <string name="send_success">发送成功</string>
+    <string name="send_failed">发送失败</string>
+    <string name="click_gateway">选中上表显示的网关，若无网关显示，查看网关是否开启配网模式！</string>
+
+    <string name="room_icon">房间图标</string>
+    <string name="room_name">房间名称</string>
+    <string name="roomname_0">放映室</string>
+    <string name="roomname_1">餐厅</string>
+    <string name="roomname_2">厨房</string>
+    <string name="roomname_3">次卧</string>
+    <string name="roomname_4">过道</string>
+    <string name="roomname_5">化妆间</string>
+    <string name="roomname_6">客厅</string>
+    <string name="roomname_7">淋浴室</string>
+    <string name="roomname_8">楼梯</string>
+    <string name="roomname_9">露台</string>
+    <string name="roomname_10">书房</string>
+    <string name="roomname_11">卫生间</string>
+    <string name="roomname_12">阳台</string>
+    <string name="roomname_13">衣帽间</string>
+    <string name="roomname_14">主卧</string>
+
+    <!--R.mipmap.sence_blue_movie,R.mipmap.sence_blue_outhome,R.mipmap.sence_blue_party,R.mipmap.sence_blue_sleep-->
+    <string name="scene_0">电影模式</string>
+    <string name="scene_1">离家模式</string>
+    <string name="scene_2">派对模式</string>
+    <string name="scene_3">睡眠模式</string>
+
+    <string name="belong">属于</string>
+    <string name="belong_room">属于本房间</string>
+    <string name="no_group">未分组</string>
+    <string name="style_open">模式开启</string>
+    <string name="cannot_get_app_version">无法获取版本号！</string>
+    <string name="cannot_connect_service">无法访问服务器！</string>
+    <string name="set_gateway_failed">配网失败！</string>
+    <string name="set_gateway_success">配网成功</string>
+    <string name="create_success">创建成功！</string>
+    <string name="create_false">创建失败！</string>
+    <string name="add_time_out">添加超时！</string>
+    <string name="add_again">重新添加</string>
+    <string name="switch_name_cannot_be_empty">开关名称不可为空！</string>
+    <string name="update_success">修改成功</string>
+    <string name="update_failed">修改失败</string>
+    <string name="logining">正在登录...</string>
+    <string name="click_double_back">双击返回键退出程序！</string>
+    <string name="take_photo">拍 照</string>
+    <string name="photo_album">相 册</string>
+    <string name="sd_unable">SD卡不可用！</string>
+    <string name="app_is_new">应用已经是最新版本！</string>
+    <string name="china">中国大陆</string>
+    <string name="china_taiwan">中国台湾</string>
+    <string name="other">欧美国家</string>
+    <string name="btn_status">按键状态</string>
+    <string name="scene_icon">情景图标</string>
+    <string name="scene_name">情景名称</string>
+    <string name="input_scene_name">请输入情景名称</string>
+    <string name="sure_blue_light">接通电源，确认网关指示灯处于闪烁状态</string>
+    <string name="light_other_status">指示灯处于其他状态！</string>
+    <string name="keep_device_close">请将手机与设备尽量靠近路由器</string>
+    <string name="set_device_room">所选设备所在位置</string>
+    <string name="input_valuable_comments">请在此输入您宝贵的意见</string>
+    <string name="username">用户</string>
+    <string name="password">密码</string>
+    <string name="nikename">昵称</string>
+    <string name="phone">手机</string>
+    <string name="email">邮箱</string>
+    <string name="home_chose">家庭选择</string>
+    <string name="connect_again">正在重连...</string>
+    <string name="login_again">登录失效，请重新登录！</string>
+    <string name="login_out_by_other">您的账号在其他地方或者设备登录！</string>
+    <string name="update_app_now">立即更新</string>
+    <string name="update_app_later">稍后更新</string>
+    <string name="delete_gateway_warn">删除网关会删除与之相关联的设备的关系，之后续重新配！</string>
+
+    <string name="show_bind">分享绑定</string>
+    <string name="look_update">查看修改</string>
+    <string name="scan_rq">扫描二维码</string>
+    <string name="scan_rq_failed">扫描失败！</string>
+    <string name="request_bind_home">是否绑定该家庭？</string>
+    <string name="get_homelist_failed">家庭列表获取失败！</string>
+    <string name="addhome_by_create">创建新家庭</string>
+    <string name="addhome_by_rq">扫描绑定</string>
+    <string name="home_name">家庭名称：</string>
+    <string name="home_address">家庭地址：</string>
+    <string name="input_homeaddress">请输入家庭地址/备注</string>
+    <string name="updateing">正在更新</string>
+    <string name="wait_update">正在处理...</string>
+    <string name="app_loading">正在下载</string>
+    <string name="loading_failed">下载失败！</string>
+    <string name="resident_area">常住地区</string>
+    <string name="bind_room">已绑定列表</string>
+    <string name="beyond_str_length">您的输入超出字符长度！</string>
+    <string name="add_gateway_first">请先添加网关!</string>
+    <string name="failed_connect_service">与服务端链接失败！ </string>
+
+    <string name="livolo_story">   We believe the main core value that each person is designed to fulfill is LOVE.Love is patient, love is kind. It does not envy, it does not boast, it is not proud.
+        LIVOLO therefore is a way to express our life attitude to LIVE ON LOVE. It is our desire to share this value with more and more people in our products, lifestyle, and the way we do business.
+        Just as a wall switch is frequently used everyday to brighten up a room, so a family is a source of love to brighten up our lives and home. In addition, LIVOLO has extended its initial line of wall switches to wall sockets and other related products. Rather than just a regular wall switch, a LIVOLO switch with a crystal touch, communicates love and uniqueness to the entire family.
+        We believe the world needs LOVE. This love is communicated by LIVOLO by adhering to the principles of humility, perseverance, and excellence.</string>
+    <string-array name="areas">
+        <item>中国</item>
+        <item>德国</item>
+        <item>美国</item>
+        <item>法国</item>
+        <item>英国</item>
+        <item>意大利</item>
+        <item>加拿大</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>1</item>
+        <item>7</item>
+        <item>20</item>
+        <item>27</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>36</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>81</item>
+        <item>82</item>
+        <item>84</item>
+        <item>86</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>98</item>
+        <item>212</item>
+        <item>213</item>
+        <item>216</item>
+        <item>218</item>
+        <item>220</item>
+        <item>221</item>
+        <item>223</item>
+        <item>224</item>
+        <item>225</item>
+        <item>226</item>
+        <item>227</item>
+        <item>228</item>
+        <item>229</item>
+        <item>230</item>
+        <item>231</item>
+        <item>232</item>
+        <item>233</item>
+        <item>233</item>
+        <item>234</item>
+        <item>235</item>
+        <item>236</item>
+        <item>237</item>
+        <item>239</item>
+        <item>241</item>
+        <item>242</item>
+        <item>243</item>
+        <item>244</item>
+        <item>247</item>
+        <item>248</item>
+        <item>249</item>
+        <item>251</item>
+        <item>252</item>
+        <item>253</item>
+        <item>254</item>
+        <item>255</item>
+        <item>256</item>
+        <item>257</item>
+        <item>258</item>
+        <item>260</item>
+        <item>261</item>
+        <item>262</item>
+        <item>263</item>
+        <item>264</item>
+        <item>265</item>
+        <item>266</item>
+        <item>267</item>
+        <item>268</item>
+        <item>327</item>
+        <item>331</item>
+        <item>350</item>
+        <item>351</item>
+        <item>352</item>
+        <item>353</item>
+        <item>354</item>
+        <item>355</item>
+        <item>356</item>
+        <item>357</item>
+        <item>358</item>
+        <item>359</item>
+        <item>370</item>
+        <item>371</item>
+        <item>372</item>
+        <item>373</item>
+        <item>374</item>
+        <item>375</item>
+        <item>376</item>
+        <item>377</item>
+        <item>378</item>
+        <item>380</item>
+        <item>381</item>
+        <item>386</item>
+        <item>420</item>
+        <item>421</item>
+        <item>423</item>
+        <item>501</item>
+        <item>502</item>
+        <item>503</item>
+        <item>504</item>
+        <item>505</item>
+        <item>506</item>
+        <item>507</item>
+        <item>509</item>
+        <item>591</item>
+        <item>592</item>
+        <item>593</item>
+        <item>594</item>
+        <item>595</item>
+        <item>596</item>
+        <item>597</item>
+        <item>598</item>
+        <item>599</item>
+        <item>673</item>
+        <item>674</item>
+        <item>675</item>
+        <item>676</item>
+        <item>677</item>
+        <item>679</item>
+        <item>682</item>
+        <item>684</item>
+        <item>685</item>
+        <item>689</item>
+        <item>850</item>
+        <item>852</item>
+        <item>853</item>
+        <item>855</item>
+        <item>856</item>
+        <item>880</item>
+        <item>886</item>
+        <item>960</item>
+        <item>961</item>
+        <item>962</item>
+        <item>963</item>
+        <item>964</item>
+        <item>965</item>
+        <item>966</item>
+        <item>967</item>
+        <item>968</item>
+        <item>971</item>
+        <item>972</item>
+        <item>973</item>
+        <item>974</item>
+        <item>976</item>
+        <item>977</item>
+        <item>992</item>
+        <item>993</item>
+        <item>994</item>
+        <item>995</item>
+        <item>1242</item>
+        <item>1246</item>
+        <item>1264</item>
+        <item>1268</item>
+        <item>1345</item>
+        <item>1441</item>
+        <item>1664</item>
+        <item>1670</item>
+        <item>1671</item>
+        <item>1758</item>
+        <item>1758</item>
+        <item>1784</item>
+        <item>1784</item>
+        <item>1787</item>
+        <item>1809</item>
+        <item>1809</item>
+        <item>1876</item>
+        <item>1890</item>
+    </string-array>
+
+</resources>

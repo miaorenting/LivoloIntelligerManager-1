@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/deepblue">
+
+        <LinearLayout
+            android:id="@+id/main_face"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/side_menu_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/header_blue" />
+
+                <CheckedTextView
+                    android:id="@+id/switch_button"
+                    android:layout_width="43dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@mipmap/switch_btn_off"/>
+                <TextView
+                    android:id="@+id/user_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@id/switch_button"
+                    android:layout_toRightOf="@id/side_menu_btn"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="MyHome"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/white" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:fadingEdge="none"
+                android:scrollbars="none" />
+
+            <com.zcolin.gui.zrecyclerview.ZRecyclerView
+                android:id="@+id/room_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/side_menu"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#232323"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <livolo.com.livolointelligermanager.view.MultiShapeView
+                    android:id="@+id/person_header"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/header_black"
+                    app:border_color="@android:color/white"
+                    app:border_width="1dp"
+                    app:shape="circle" />
+            </RelativeLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View style="@style/MainSideLine" />
+
+                <TableRow
+                    android:id="@+id/setting"
+                    style="@style/MainSideRowStyle">
+
+                    <ImageView
+                        style="@style/MainSideImage"
+                        android:src="@mipmap/setting" />
+
+                    <TextView
+                        style="@style/MainSideTextView"
+                        android:text="@string/set" />
+                </TableRow>
+
+                <View style="@style/MainSideLine" />
+
+                <TableRow
+                    android:id="@+id/room_manager"
+                    style="@style/MainSideRowStyle">
+
+                    <ImageView
+                        style="@style/MainSideImage"
+                        android:src="@mipmap/room" />
+
+                    <TextView
+                        style="@style/MainSideTextView"
+                        android:text="@string/room_manager" />
+                </TableRow>
+
+                <View style="@style/MainSideLine" />
+
+                <TableRow
+                    android:id="@+id/gateway_manager"
+                    style="@style/MainSideRowStyle">
+
+                    <ImageView
+                        style="@style/MainSideImage"
+                        android:src="@mipmap/gateway" />
+
+                    <TextView
+                        style="@style/MainSideTextView"
+                        android:text="@string/gatewaymanager_title" />
+                </TableRow>
+
+                <View style="@style/MainSideLine" />
+
+                <TableRow
+                    android:id="@+id/switch_manager"
+                    style="@style/MainSideRowStyle">
+
+                    <ImageView
+                        style="@style/MainSideImage"
+                        android:src="@mipmap/switchbtn" />
+
+                    <TextView
+                        style="@style/MainSideTextView"
+                        android:text="@string/switch_manager_title" />
+                </TableRow>
+
+                <View style="@style/MainSideLine" />
+
+                <TableRow
+                    android:id="@+id/sence_manager"
+                    style="@style/MainSideRowStyle">
+
+                    <ImageView
+                        style="@style/MainSideImage"
+                        android:src="@mipmap/sence" />
+
+                    <TextView
+                        style="@style/MainSideTextView"
+                        android:text="@string/sence_manager" />
+                </TableRow>
+                <View style="@style/MainSideLine" />
+                <TableRow
+                    android:id="@+id/home_manager"
+                    style="@style/MainSideRowStyle">
+
+                    <ImageView
+                        style="@style/MainSideImage"
+                        android:src="@mipmap/sence" />
+
+                    <TextView
+                        style="@style/MainSideTextView"
+                        android:text="@string/set_home" />
+                </TableRow>
+
+                <View style="@style/MainSideLine" />
+
+                <TableRow
+                    android:id="@+id/feedback"
+                    style="@style/MainSideRowStyle">
+
+                    <ImageView
+                        style="@style/MainSideImage"
+                        android:src="@mipmap/sence" />
+
+                    <TextView
+                        style="@style/MainSideTextView"
+                        android:text="@string/feedback" />
+                </TableRow>
+
+                <View style="@style/MainSideLine" />
+
+                <TableRow
+                    android:id="@+id/login_out"
+                    style="@style/MainSideRowStyle">
+
+                    <ImageView
+                        style="@style/MainSideImage"
+                        android:src="@mipmap/sence" />
+
+                    <TextView
+                        style="@style/MainSideTextView"
+                        android:text="@string/login_out" />
+                </TableRow>
+
+                <View style="@style/MainSideLine" />
+            </TableLayout>
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "livolo.com.livolointelligermanager"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 54
+        versionName "1.5.4"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    compile 'com.android.support:multidex:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    //配网模式
+    compile 'io.fogcloud.sdk:fog2_sdk:0.1.1'
+    // 只发广播的版本
+    //    compile 'io.fogcloud.sdk:easylinkv3:0.1.4'
+    //    // 广播组播同时发的版本
+    //    compile 'io.fogcloud.sdk:easylinkv3:0.1.5'
+    //    // AWS配网版本
+    //    compile 'io.fogcloud.sdk:easylinkv3:0.2.6'
+    //sweetalert
+    compile 'com.github.f0ris.sweetalert:library:1.5.1'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    implementation project(':libZRecyclerView')
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    //侧滑菜单
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.daimajia.swipelayout:library:1.2.0@aar'
+    implementation project(':circleprogress')
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.github.dongjunkun:DropDownMenu:1.0.4'
+    //MQTT推送
+    compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.1'
+    compile 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
+    //颜色选择器
+    compile 'com.larswerkman:HoloColorPicker:1.5'
+    //bugly 集成
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    //二维码扫描和生成器
+    compile 'cn.yipianfengye.android:zxing-library:2.2'
+    implementation project(':huelib')
+
+    compile 'com.android.support:support-annotations:22.2.0'
+    //
+}

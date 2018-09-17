@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar_top" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="45dp">
+
+            <livolo.com.livolointelligermanager.view.MultiShapeView
+                android:id="@+id/header"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/header_black"
+                app:border_color="@android:color/white"
+                app:border_width="1dp"
+                app:shape="circle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp">
+                <TextView
+                    style="@style/RegisterEditStyle"
+                    android:text="@string/nikename" />
+
+                <EditText
+                    android:id="@+id/nikename"
+                    style="@style/LoginEditTextStyle" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/grav_line"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    style="@style/RegisterEditStyle"
+                    android:text="@string/phone" />
+
+                <TextView
+                    android:id="@+id/phone_number"
+                    style="@style/LoginEditTextStyle" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/grav_line"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    style="@style/RegisterEditStyle"
+                    android:text="@string/email" />
+
+                <TextView
+                    android:id="@+id/password"
+                    style="@style/LoginEditTextStyle" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/grav_line"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

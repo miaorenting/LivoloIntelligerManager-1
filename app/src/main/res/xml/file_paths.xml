@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path path="Android/data/livolo.com.livolointelligermanager/" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+</paths>
+<!--<resources>-->
+<!--<paths>-->
+    <!--&lt;!&ndash;<external-path path="" name="download"/>&ndash;&gt;-->
+    <!--<files-path path ="" name = "download"/>-->
+<!--</paths>-->
+<!--</resources>-->

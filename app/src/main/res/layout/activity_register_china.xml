@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightblue">
+
+    <include
+        layout="@layout/action_bar_top"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:weightSum="5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="4">
+
+            <livolo.com.livolointelligermanager.view.MultiShapeView
+                android:id="@+id/header"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:shape="circle"
+                app:border_width="1dp"
+                app:border_color="@android:color/white"
+                android:background="@mipmap/header_black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/text_bg">
+                <TextView
+                    style="@style/LoginTextViewStyle"
+                    android:text="用户：" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:hint="@string/input_username"
+                    style="@style/LoginEditTextStyle" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="6dp"
+                android:background="@drawable/text_bg">
+                <TextView
+                    style="@style/LoginTextViewStyle"
+                    android:text="密码：" />
+                <EditText
+                    android:id="@+id/password"
+                    android:hint="@string/input_password"
+                    style="@style/LoginEditTextStyle" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="6dp"
+                android:background="@drawable/text_bg">
+                <TextView
+                    style="@style/LoginTextViewStyle"
+                    android:text="手机：" />
+
+                <EditText
+                    android:hint="@string/input_phone"
+                    android:id="@+id/phone_number"
+                    style="@style/LoginEditTextStyle" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_bg"
+                    android:orientation="horizontal"
+                    android:padding="6dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/code_right">
+                    <TextView
+                        style="@style/LoginTextViewStyle"
+                        android:text="验证码：" />
+                    <EditText
+                        android:hint="@string/input_code"
+                        android:id="@+id/phone_code"
+                        style="@style/LoginEditTextStyle"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/code_right"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:textSize="13sp"
+                    android:text="@string/code_btn"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/click_bg"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="6dp"
+                android:background="@drawable/text_bg">
+                <TextView
+                    style="@style/LoginTextViewStyle"
+                    android:text="邮箱：" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:hint="@string/input_emial"
+                    style="@style/LoginEditTextStyle" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="6dp"
+                android:background="@drawable/text_bg">
+                <TextView
+                    style="@style/LoginTextViewStyle"
+                    android:text="昵称：" />
+                <EditText
+                    android:id="@+id/nikename"
+                    android:hint="@string/input_nike"
+                    style="@style/LoginEditTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/next_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/click_bg"
+                android:text="@string/register"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

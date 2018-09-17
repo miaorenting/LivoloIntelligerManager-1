@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/action_bar_top"/>
+        <TextView
+            android:id="@+id/about"
+            style="@style/SettingTextStyle"
+            android:text="@string/about" />
+        <TextView
+            android:id="@+id/updata_version"
+            style="@style/SettingTextStyle"
+            android:text="@string/set_appversion"/>
+        <TextView
+            style="@style/SettingTextStyle"
+            android:text="@string/set_location"
+            android:id="@+id/location"/>
+
+        <TextView
+            style="@style/SettingTextStyle"
+            android:text="@string/set_update_pwd"
+            android:id="@+id/update_pwd"/>
+        <!--<TextView-->
+            <!--style="@style/SettingTextStyle"-->
+            <!--android:text="@string/set_update_phone"-->
+            <!--android:id="@+id/update_phone"/>-->
+        <TextView
+            style="@style/SettingTextStyle"
+            android:textColor="@android:color/holo_red_light"
+            android:text="@string/delete_user"
+            android:id="@+id/delete_user"/>
+    </LinearLayout>
+
+</ScrollView>

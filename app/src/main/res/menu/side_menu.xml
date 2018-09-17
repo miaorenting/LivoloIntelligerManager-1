@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:checkableBehavior="single">
+        <item android:id="@+id/option_1"
+            android:icon="@mipmap/setting"
+            android:title="应用设置"
+            app:showAsAction="ifRoom"/>
+
+
+    </group>
+    <item android:id="@+id/option_2"
+        android:icon="@mipmap/room"
+        android:title="房间管理"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/option_3"
+        android:icon="@mipmap/gateway"
+        android:title="网关管理"
+        app:showAsAction="withText|always"/>
+
+    <item android:id="@+id/option_4"
+        android:title="开关管理"
+        android:icon="@mipmap/switchbtn"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/option_5"
+        android:icon="@mipmap/sence"
+        android:title="场景管理"
+        app:showAsAction="withText|always"/>
+</menu>

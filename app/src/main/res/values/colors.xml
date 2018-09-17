@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="broder_line">#cccccc</color>
+    <color name="content_bg">#f3f1f4</color>
+    <color name="new_login_text_stroke">#bfbfbf</color>
+    <color name="deepblue">#67cfff</color>
+    <color name="midblue">#cff0ff</color>
+    <color name="lightblue">#e2f6ff</color>
+    <color name="light_blue_bg">#e0f1f9</color>
+    <color name="light_black">#738088</color>
+    <color name="login_bg">#232323</color>
+    <color name="switch_bg">#42b8ee</color>
+    <color name="setting_bg">#e2f6ff</color>
+    <color name="grav_line">#3d3d3d</color>
+
+    <color name="trans">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+</resources>

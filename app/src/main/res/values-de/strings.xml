@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">LIVOLO</string>
+    <string name="login">Anmelden</string>
+    <string name="add">Hinzufügen</string>
+    <string name="save">Speichern</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="sure">Ok</string>
+    <string name="set">Einstellung</string>
+    <string name="delete">Löschen</string>
+    <string name="cancel">Stornieren</string>
+    <string name="delete_all">Alle löschen</string>
+    <string name="delete_selected">Massenlöschung</string>
+    <string name="rename">Umbenennen</string>
+    <string name="send">Senden</string>
+    <string name="commit">Vorlegen</string>
+    <string name="error">Fehler</string>
+    <string name="get">Erwerben</string>
+    <string name="update">Ändern</string>
+    <string name="open">Öffnen</string>
+    <string name="close">Schließen</string>
+    <string name="register">Registrieren</string>
+    <string name="next">Weiter</string>
+    <string name="complete">Fertig</string>
+    <string name="unbind">Lösen</string>
+    <string name="about">Über</string>
+    <string name="add_switch_notice">Drücken Sie irgendeine Taste 5 Sek.bis zum Ertönen des Tones “beep”</string>
+    <string name="addgateway_title">Gateway hinzufügen</string>
+    <string name="addgateway_progress_title">Gateway-Übereinstimmung</string>
+    <string name="addgateway_success_title">Erfolgreich</string>
+    <string name="addswitch_title">Gerät hinzufügen</string>
+    <string name="addswitch_success_title">Erfolgreich</string>
+    <string name="devicechose_title">Geräteauswahl</string>
+    <string name="gatewaymanager_title">Gateway-Verwaltung</string>
+    <string name="switch_manager_title">Gerätemanagement</string>
+    <string name="wifichose_title">WLAN-Auswahl</string>
+    <string name="addroom_title">Zimmer hinzufügen</string>
+    <string name="room_manager">Raumverwaltung</string>
+    <string name="sence_manager">Situationsmanagement</string>
+    <string name="add_sence">Szene hinzufügen</string>
+    <string name="password_change">Passwort ändern</string>
+    <string name="reset_gateway">Geräte-Reset</string>
+    <string name="login_out">Abmelden</string>
+    <string name="start_set_gateway">Übereinstimmung starten</string>
+    <string name="start_add">Hinzufügen</string>
+    <string name="register_success">Erfolgreich</string>
+    <string name="userinfo">Benutzerinformationen</string>
+    <string name="add_success">Erfolgreich</string>
+    <string name="add_false">Fehlgeschlagen</string>
+    <string name="my_room">Mein Zimmer</string>
+    <string name="selected_btn">Wählen Sie die Geräteliste aus</string>
+    <string name="be_need_save">Speichern?</string>
+    <string name="room_is_name_cannot_be_null">Bitte geben Sie einen Raumnamen ein!</string>
+    <string name="be_need_delete">Löschen?</string>
+    <string name="add_home_first">Bitte fügen Sie zuerst eine Familie hinzu!</string>
+    <string name="input_switch_name">Bitte geben Sie einen Gerätenamen ein</string>
+    <string name="re_login">Bitte melden Sie sich erneut an</string>
+    <string name="input_gateway_name">Bitte geben Sie den Gateway-Namen ein</string>
+    <string name="empty_layout_text">Bitte fügen Sie zuerst ein Zimmer hinzu!</string>
+    <string name="rq_empty">Kein QR-Code!</string>
+    <string name="need_unbind_home">Müssen Sie die Familie losbinden?</string>
+    <string name="unbind_failed">Fehlgeschlagen!</string>
+    <string name="scene_open">Modus ein</string>
+    <string name="device_number">Anzahl der Geräte:</string>
+    <string name="gateway_name">Gateway Name</string>
+    <string name="feedback">Feedback</string>
+    <string name="feed_bug">Systemfehler</string>
+    <string name="feed_ui">Schnittstellenproblem</string>
+    <string name="feed_action">Operationelles Problem</string>
+    <string name="feed_other">Andere Probleme</string>
+    <string name="set_appversion">Update prüfen</string>
+    <string name="update_appversion">Versionsaktualisierung</string>
+    <string name="set_location">Region</string>
+    <string name="set_language">Sprache</string>
+    <string name="set_update_pwd">Passwort ändern</string>
+    <string name="set_update_phone">Handynummer ändern</string>
+    <string name="register_right_now">Registrieren</string>
+    <string name="forget_password">Passwort vergessen</string>
+    <string name="set_home">Familienmanagement</string>
+    <string name="delete_user">Konto löschen</string>
+    <string name="delete_user_warn">Nachdem das Konto gelöscht hat, existiert dieser Konto nicht mehr!</string>
+    <string name="delete_user_success">Erfolgreich</string>
+    <string name="delete_user_false">Fehlgeschlagen</string>
+    <string name="login_warn">Die Anmeldung ist fehlgeschlagen. Bitte überprüfen Sie Ihren Benutzernamen und das Passwort.</string>
+    <string name="can_not_be_empty">Bitte geben Sie einen Benutzernamen ein!</string>
+    <string name="devicename">Gerätename</string>
+    <string name="devicename_cannot_be_empty">Bitte geben Sie einen Gerätenamen ein!</string>
+    <string name="pwd_cannot_be_empty">Bitte geben Sie Ihr Passwort ein!</string>
+    <string name="time_out">Zeitüberschreitung beim Anmelden, bitte loggen Sie sich erneut ein!</string>
+    <string name="be_need_commit">Einreichen?</string>
+    <string name="phone_number">Handynummer:</string>
+    <string name="code_number">Code:</string>
+    <string name="code">Code</string>
+    <string name="new_password">Neues:</string>
+    <string name="old_password">Altes:</string>
+    <string name="new_password_again">Wieder:</string>
+    <string name="input_password_again">Neues Passwort wiederholen</string>
+    <string name="be_right_input_password">Bitte geben Sie das Passwort richtig ein!</string>
+    <string name="passwrod_not_same">Die zwei neuen Passwörter sind ungleich, bitte füllen Sie sie erneut aus!</string>
+    <string name="committing">wird eingereicht...</string>
+    <string name="add_gateway_success">Erfolgreich</string>
+    <string name="add_gateway_false">Fehlgeschlagen!</string>
+    <string name="blue_light">Rot und Blau blinken</string>
+    <string name="change_wifi">Um das WLAN zu ändern, ändern Sie bitte das aktuell mit dem Telefon verbundene WLAN</string>
+    <string name="update_password_success">Erfolgreich!</string>
+    <string name="update_password_false">Passwortänderung fehlgeschlagen!</string>
+    <string name="input_roomname">Bitte geben Sie einen Raumnamen ein</string>
+    <string name="input_homename">Bitte geben Sie einen Familiennamen ein</string>
+    <string name="rename_isempty">Der neue Name ist leer und die Umbenennung ist fehlgeschlagen!</string>
+    <string name="sences_get_false">Fehlgeschlagen!</string>
+    <string name="add_scene_success">Erfolgreich!</string>
+    <string name="add_scene_false">Fehlgeschlagen!</string>
+    <string name="update_scene_success">Erfolgreich!</string>
+    <string name="update_scene_false">Fehlgeschlagen!</string>
+    <string name="get_scene_error">Fehlgeschlagen!</string>
+    <string name="chose_scene_icon">Bitte wählen Sie das Symbol</string>
+    <string name="reset_gateway_attention">Halten Sie die Verteilungstaste oben auf dem Gateway etwa 5 Sekunden lang gedrückt, bis die Anzeigeleuchte blau blinkt und das Zurücksetzen erfolgreich war.</string>
+    <string name="done_all_operation">Die obige Operation wurde abgeschlossen</string>
+    <string name="input_username_login">Bitte geben Sie einen Benutzernamen ein</string>
+    <string name="input_password_login">Bitte geben Sie Ihr Passwort ein</string>
+    <string name="input_username">Bitte geben Sie einen Benutzernamen ein (Erforderlich)</string>
+    <string name="input_password">Bitte geben Sie ein Passwort ein (Erforderlich)</string>
+    <string name="input_phone">Bitte geben Sie Ihre Handynummer ein (Erforderlich)</string>
+    <string name="input_code">Bitte geben Sie den Bestätigungscode ein(Erforderlich)</string>
+    <string name="input_emial">Bitte geben Sie Ihre E-Mail-Adresse ein (Erforderlich)</string>
+    <string name="input_nike">Bitte geben Sie einen Spitznamen ein</string>
+    <string name="code_btn">Code Senden</string>
+    <string name="code_cannot_be_empty">Bitte geben Sie den Bestätigungscode ein!</string>
+    <string name="region_cannot_be_empty">Bitte geben Sie die Vorwahl ein!</string>
+    <string name="phone_cannot_be_empty">Bitte geben Sie Ihre Handynummer ein!</string>
+    <string name="email_cannot_be_empty">Bitte geben Sie Ihre E-Mail-Adresse ein!</string>
+    <string name="email_format_error">Das Postfachformat ist falsch!</string>
+    <string name="get_code_error">Fehler beim Abrufen des Bestätigungscodes!</string>
+    <string name="token_time_out">Zeitüberschreitung bei der Anmeldung, bitte loggen Sie sich erneut ein!</string>
+    <string name="connecting">Verbinden....</string>
+    <string name="connecting_text">Verbinden</string>
+    <string name="delete_false">konnte nicht gelöscht werden</string>
+    <string name="send_success">Erfolgreich</string>
+    <string name="send_failed">Fehlgeschlagen</string>
+    <string name="click_gateway">Wählen Sie das in der obigen Tabelle gezeigte Gateway aus.Wenn kein Gateway angezeigt wird, überprüfen Sie bitte, ob das Gateway im Verteilungsmodus ist!</string>
+    <string name="room_icon">Zimmer-Symbol</string>
+    <string name="room_name">Raumname</string>
+    <string name="roomname_0">Vorführraum</string>
+    <string name="roomname_1">Speiseraum</string>
+    <string name="roomname_2">Küche</string>
+    <string name="roomname_3">Zweites Schlafzimmer</string>
+    <string name="roomname_4">Gang</string>
+    <string name="roomname_5">Schminkzimmer</string>
+    <string name="roomname_6">Wohnzimmer</string>
+    <string name="roomname_7">Duschraum</string>
+    <string name="roomname_8">Treppe</string>
+    <string name="roomname_9">Terrasse</string>
+    <string name="roomname_10">Arbeitszimmer</string>
+    <string name="roomname_11">Badezimmer</string>
+    <string name="roomname_12">Balkon</string>
+    <string name="roomname_13">Garderobe</string>
+    <string name="roomname_14">Hauptschlafzimmer</string>
+    <string name="scene_0">Filmmodus</string>
+    <string name="scene_1">Abfahrtsmodus</string>
+    <string name="scene_2">Party-Modus</string>
+    <string name="scene_3">Schlafmodus</string>
+    <string name="belong">gehören</string>
+    <string name="belong_room">Gehören zu diesem Raum</string>
+    <string name="no_group">Nicht gruppiert</string>
+    <string name="style_open">Modus ein</string>
+    <string name="cannot_get_app_version">Die Versionsnummer konnte nicht abgerufen werden!</string>
+    <string name="cannot_connect_service">Zugriff auf den Server nicht möglich!</string>
+    <string name="set_gateway_failed">Fehlgeschlagen!</string>
+    <string name="set_gateway_success">Erfolgreich</string>
+    <string name="create_success">Erfolgreich!</string>
+    <string name="create_false">Fehlgeschlagen!</string>
+    <string name="add_time_out">Zeitüberschreitung!</string>
+    <string name="add_again">Erneut hinzufügen</string>
+    <string name="switch_name_cannot_be_empty">Bitte geben Sie den Namen des Schalters ein!</string>
+    <string name="update_success">Erfolgreich</string>
+    <string name="update_failed">Fehlgeschlagen!</string>
+    <string name="logining">Anmeldung läuft...</string>
+    <string name="click_double_back">Doppelklicken Sie auf die Zurück-Schaltfläche, um das Programm zu beenden!</string>
+    <string name="take_photo">Photographieren</string>
+    <string name="photo_album">Album</string>
+    <string name="sd_unable">SD-Karte ist nicht verfügbar!</string>
+    <string name="app_is_new">Die App ist bereits die neueste Version!</string>
+    <string name="china">China</string>
+    <string name="china_taiwan">Taiwan</string>
+    <string name="other">Okzident</string>
+    <string name="btn_status">Schaltflächenstatus</string>
+    <string name="scene_icon">Szenen-Symbol</string>
+    <string name="scene_name">Szenen-Name</string>
+    <string name="input_scene_name">Bitte geben Sie den Szenennamen ein</string>
+    <string name="sure_blue_light">Schalten Sie das Gerät ein und überprüfen Sie, ob die Gateway-Anzeige blinkt.</string>
+    <string name="light_other_status">Die Anzeigeleuchte ist in anderen Zuständen!</string>
+    <string name="keep_device_close">Bitte legen Sie Ihr Telefon und Gerät so nah wie möglich an den Router</string>
+    <string name="set_device_room">Der Speicherort des ausgewählten Geräts</string>
+    <string name="input_valuable_comments">Bitte geben Sie hier Ihre wertvollen Kommentare ein</string>
+    <string name="username">Benutzer</string>
+    <string name="password">Passwort</string>
+    <string name="nikename">Spitzname</string>
+    <string name="phone">Handynummer</string>
+    <string name="email">E-Mail-Adresse</string>
+    <string name="home_chose">Familienwahl</string>
+    <string name="connect_again">Erneut verbinden…</string>
+    <string name="login_again">Login ist ungültig, bitte loggen Sie sich erneut ein!</string>
+    <string name="login_out_by_other">Ihr Konto ist an anderer Stelle angemeldet!</string>
+    <string name="update_app_now">Jetzt aktualisieren</string>
+    <string name="update_app_later">Später aktualisieren</string>
+    <string name="delete_gateway_warn">Durch das Löschen des Gateways wird die Beziehung des zugehörigen Geräts gelöscht und dann müssen Sie es erneut anpassen!</string>
+    <string name="show_bind">Teilen verbindlich</string>
+    <string name="look_update">Änderungen anzeigen</string>
+    <string name="scan_rq">QR-Code scannen</string>
+    <string name="scan_rq_failed">Scan fehlgeschlagen!</string>
+    <string name="request_bind_home">Wollen Sie diese Familie binden?</string>
+    <string name="get_homelist_failed">Familienliste konnte nicht erhalten werden!</string>
+    <string name="addhome_by_create">Erstelle eine neue Familie</string>
+    <string name="addhome_by_rq">Scannen von Bindungen</string>
+    <string name="home_name">Familienname:</string>
+    <string name="home_address">Familienadresse:</string>
+    <string name="input_homeaddress">Bitte geben Sie eine Privatadresse ein/ Bemerkungen</string>
+    <string name="updateing">Aktualisieren</string>
+    <string name="wait_update">Verarbeiten...</string>
+    <string name="app_loading">herunterladen</string>
+    <string name="loading_failed">Download fehlgeschlagen!</string>
+    <string name="resident_area">Region</string>
+    <string name="bind_room">Gebundene Liste</string>
+    <string name="beyond_str_length">Eingabe ist zu lang!</string>
+    <string name="add_gateway_first">Bitte fügen Sie ein Gateway hinzu!</string>
+    <string name="failed_connect_service">Verbindung zum Server fehlgeschlagen！ </string>
+
+    <string name="livolo_story">LIVOLO. . . die Marke, die von der Liebe inspiriert wurde. Wir glauben, dass der wichtigste Kernwert, den jede Person erfüllen soll, LIEBE ist. "Liebe ist geduldig, Liebe ist freundlich. Sie beneidet nicht, sie rühmt sich nicht, sie ist nicht stolz." LIVOLO ist daher eine Möglichkeit, unser Lebensgefühl gegenüber LEBEN AUF LIEBE auszudrücken. Es ist unser Wunsch, diesen Wert mit immer mehr Menschen in unseren Produkten, unserem Lebensstil und unserer Art zu handeln zu teilen. So wie ein Wandschalter häufig verwendet wird, um einen Raum zu erhellen, so ist eine Familie eine Quelle der Liebe, die unser Leben und Zuhause erhellt. Darüber hinaus hat LIVOLO seine erste Reihe von Wandschaltern auf Steckdosen und andere verwandte Produkte erweitert. Ein LIVOLO-Schalter mit Kristall-Touch vermittelt nicht nur einen normalen Wandschalter, sondern kommuniziert Liebe und Einzigartigkeit für die ganze Familie. Wir glauben, dass die Welt LIEBE braucht. Diese Liebe wird von LIVOLO vermittelt, indem die Prinzipien "Demut, Ausdauer und Exzellenz" eingehalten werden. Bescheidenheit bedeutet Bescheidenheit und das friedliche Verständnis des Wertes jeder Person. Ganz gleich, ob es sich um einen Mitarbeiter in der Produktion oder den CEO handelt, jede Person verdient gegenseitigen Respekt und Gerechtigkeit. Ausdauer bedeutet niemals aufzugeben. LIVOLO- Personal behandeln jede Aufgabe als eine ernst zu nehmende Aufgabe, die eine gründliche Begleitung bis zum erfolgreichen Abschluss beinhaltet. Dies beinhaltet eine Teamarbeit, damit wir besser auf die Bedürfnisse unserer Kunden eingehen können. Exzellenz bedeutet, dass die Unternehmenskultur unseres Unternehmens eine solide Grundlage für das Vertrauen unserer Kunden und Mitarbeiter bildet, "um das Beste zu sein, was wir sein können". LIVOLO ist bestrebt, die Träume und Bestrebungen seiner Kunden durch innovative, erschwingliche und zuverlässige Produkte zu erfüllen. LIVOLO kommuniziert die Botschaft von LIVE ON LOVE. Indem sie das Leben jeder Person berührt, mit der es Geschäfte macht. . . und das ist ein guter Schalter!</string>
+    <string-array name="areas">
+        <item>China</item>
+        <item>Deutschland</item>
+        <item>Amerika</item>
+        <item>Frankreich</item>
+        <item>England</item>
+        <item>Italien</item>
+        <item>Kanada</item>
+    </string-array>
+    <string-array name="countries">
+        <item>1</item>
+        <item>7</item>
+        <item>20</item>
+        <item>27</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>36</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>81</item>
+        <item>82</item>
+        <item>84</item>
+        <item>86</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>98</item>
+        <item>212</item>
+        <item>213</item>
+        <item>216</item>
+        <item>218</item>
+        <item>220</item>
+        <item>221</item>
+        <item>223</item>
+        <item>224</item>
+        <item>225</item>
+        <item>226</item>
+        <item>227</item>
+        <item>228</item>
+        <item>229</item>
+        <item>230</item>
+        <item>231</item>
+        <item>232</item>
+        <item>233</item>
+        <item>233</item>
+        <item>234</item>
+        <item>235</item>
+        <item>236</item>
+        <item>237</item>
+        <item>239</item>
+        <item>241</item>
+        <item>242</item>
+        <item>243</item>
+        <item>244</item>
+        <item>247</item>
+        <item>248</item>
+        <item>249</item>
+        <item>251</item>
+        <item>252</item>
+        <item>253</item>
+        <item>254</item>
+        <item>255</item>
+        <item>256</item>
+        <item>257</item>
+        <item>258</item>
+        <item>260</item>
+        <item>261</item>
+        <item>262</item>
+        <item>263</item>
+        <item>264</item>
+        <item>265</item>
+        <item>266</item>
+        <item>267</item>
+        <item>268</item>
+        <item>327</item>
+        <item>331</item>
+        <item>350</item>
+        <item>351</item>
+        <item>352</item>
+        <item>353</item>
+        <item>354</item>
+        <item>355</item>
+        <item>356</item>
+        <item>357</item>
+        <item>358</item>
+        <item>359</item>
+        <item>370</item>
+        <item>371</item>
+        <item>372</item>
+        <item>373</item>
+        <item>374</item>
+        <item>375</item>
+        <item>376</item>
+        <item>377</item>
+        <item>378</item>
+        <item>380</item>
+        <item>381</item>
+        <item>386</item>
+        <item>420</item>
+        <item>421</item>
+        <item>423</item>
+        <item>501</item>
+        <item>502</item>
+        <item>503</item>
+        <item>504</item>
+        <item>505</item>
+        <item>506</item>
+        <item>507</item>
+        <item>509</item>
+        <item>591</item>
+        <item>592</item>
+        <item>593</item>
+        <item>594</item>
+        <item>595</item>
+        <item>596</item>
+        <item>597</item>
+        <item>598</item>
+        <item>599</item>
+        <item>673</item>
+        <item>674</item>
+        <item>675</item>
+        <item>676</item>
+        <item>677</item>
+        <item>679</item>
+        <item>682</item>
+        <item>684</item>
+        <item>685</item>
+        <item>689</item>
+        <item>850</item>
+        <item>852</item>
+        <item>853</item>
+        <item>855</item>
+        <item>856</item>
+        <item>880</item>
+        <item>886</item>
+        <item>960</item>
+        <item>961</item>
+        <item>962</item>
+        <item>963</item>
+        <item>964</item>
+        <item>965</item>
+        <item>966</item>
+        <item>967</item>
+        <item>968</item>
+        <item>971</item>
+        <item>972</item>
+        <item>973</item>
+        <item>974</item>
+        <item>976</item>
+        <item>977</item>
+        <item>992</item>
+        <item>993</item>
+        <item>994</item>
+        <item>995</item>
+        <item>1242</item>
+        <item>1246</item>
+        <item>1264</item>
+        <item>1268</item>
+        <item>1345</item>
+        <item>1441</item>
+        <item>1664</item>
+        <item>1670</item>
+        <item>1671</item>
+        <item>1758</item>
+        <item>1758</item>
+        <item>1784</item>
+        <item>1784</item>
+        <item>1787</item>
+        <item>1809</item>
+        <item>1809</item>
+        <item>1876</item>
+        <item>1890</item>
+    </string-array>
+</resources>
